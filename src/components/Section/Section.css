@@ -1,0 +1,67 @@
+.backsec {
+    width: 100%;
+    background: #D3CCE3;
+    background: -webkit-linear-gradient(to right, #d6d1e2, #efe4f0);
+    background: linear-gradient(to right, #d6d1e2, #efe4f0);
+    height: 850px;
+    position: relative;
+}
+
+.sec1-texts {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.backed {
+    font-size: 18px;
+    color: #6B7385;
+}
+
+.yaz {
+    font-size: 53px;
+    font-weight: 500;
+    width: 930px;
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    width: 600px;
+    height: 70px;
+    border-radius: 40px;
+    padding: 0px 30px;
+    font-size: 20px;
+}
+
+.ypq {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.yarat {
+    width: 117px;
+    height: 50px;
+    background: #006cca;
+    background: -webkit-linear-gradient(to right, #006cca, #a047e4);
+    background: linear-gradient(to right, #006cca, #a047e4);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 30px;
+    border: 1px solid #006cca;
+    position: absolute;
+    top: 12px;
+    left: 470px;
+}
+.input-button{
+    position: relative;
+}

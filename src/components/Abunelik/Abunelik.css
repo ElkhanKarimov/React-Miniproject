@@ -1,0 +1,11 @@
+.abune{
+    display: flex;
+    padding: 100px 0px;
+}
+.destek-text{
+    padding: 200px 100px;
+    padding-right: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

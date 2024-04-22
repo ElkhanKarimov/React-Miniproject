@@ -1,0 +1,26 @@
+.bizden-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 200px;
+    gap: 50px;
+}
+.bizden{
+    font-size: 18px;
+    color: #6B7385;
+    font-weight: 700;
+}
+.img1{
+    width: 78px;
+    height: 35px;
+}
+.img2{
+    width: 137px;
+    height: 35px;
+}
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

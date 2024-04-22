@@ -1,0 +1,88 @@
+.container-box {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;
+    gap: 30px;
+    position: relative;
+}
+
+.creator-img {
+    width: 303px;
+    height: 80px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.creatorLink {
+    text-decoration: none;
+}
+
+.ptext1 {
+    position: absolute;
+    top: 110px;
+    left: 200px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.ptext8 {
+    position: absolute;
+    top: 225px;
+    left: 1215px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.ptext2 {
+    position: absolute;
+    top: 110px;
+    left: 530px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.ptext3 {
+    position: absolute;
+    top: 110px;
+    left: 865px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.ptext4 {
+    position: absolute;
+    top: 110px;
+    left: 1210px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.ptext5 {
+    position: absolute;
+    top: 225px;
+    left: 200px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.ptext6 {
+    position: absolute;
+    top: 225px;
+    left: 560px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+.ptext7 {
+    position: absolute;
+    top: 225px;
+    left: 885px;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.box33 {
+    filter: brightness(0.45);
+
+}

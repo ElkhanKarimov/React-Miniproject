@@ -1,0 +1,92 @@
+nav{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    z-index: 999;
+    background-color: white;
+    border-radius: 5px;
+    position: fixed;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 137px;
+    height: 30px;
+}
+.flag{
+    width: 20px;
+    height: 20px;
+    
+}
+.menuLinks{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.links:hover{
+    color: rgb(99,87,239);
+    transition: 0.3s;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.eng{
+    width: 120px;
+    height: 21px;
+    border: none;
+    border-right: 1px solid rgb(237,234,244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: white;
+    font-size: 14px;
+    color: rgb(107,115,133);
+    font-weight: 500;
+}
+.sign{
+    width: 100px;
+    height: 45px;
+    border: 1px solid rgb(237,234,244);
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.sign:hover{
+    background-color: rgb(99,87,239);
+    color: white;
+    transition: 0.5s;
+}
+.join{
+    width: 127px;
+    height: 45px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    background: #006cca;
+    background: -webkit-linear-gradient(to right, #006cca, #a047e4);
+    background: linear-gradient(to right, #006cca, #a047e4);
+    border: 1px solid rgb(99,87,239);
+    color: white;
+}
+.join:hover{
+    background-color: white;
+    transition: 0.5s;
+    color: white;
+}

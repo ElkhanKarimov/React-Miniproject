@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './layout/Navbar/Navbar';
+import Section from './components/Section/Section';
+import Creator from './components/Creator/Creator';
+import Top from './components/Top/Top';
+import Destek from './components/Destek/Destek';
+import Magaza from './components/Magaza/Magaza';
+import Abunelik from './components/Abunelik/Abunelik';
+import Suallar from './components/Suallar/Suallar';
+import Bizden from './components/Bizden/Bizden';
+import Map from './components/Map/Map';
+import Footer from './layout/Footer/Footer';
+import Home from './pages/Home';
+import { Outlet } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      {/* <Home/> */}
+      <Outlet/>
+      <Footer/>
     </div>
+
   );
 }
 

@@ -1,0 +1,34 @@
+.destek-sec{
+    display: flex;
+    padding: 100px 0px;
+}
+.orxan{
+    width: 633px;
+    height: 658px;
+}
+.destek-text{
+    padding: 100px 50px;
+    padding-right: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.destek{
+    width: 118px;
+    height: 35px;
+    background-color: rgb(228,233,253);
+    color: rgb(47,98,242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.bexsis{
+    font-size: 36px;
+    font-weight: 700;
+}
+.kofe{
+    font-size: 19px;
+    color: #6B7385;
+}

@@ -1,0 +1,41 @@
+.faq-sec1{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.faq-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq{
+    border: 1px solid rgb(250,236,241);
+    background-color: rgb(250,236,241);
+    color: rgb(219,112,147);
+    width: 68px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.sual{
+    padding: 0px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.nedir{
+    color: rgb(47,87,239);
+    font-size: 19px !important;
+    font-weight: 700 !important;
+}
+.type{
+    color: #6b7385;
+    font-size: 18px !important;
+}

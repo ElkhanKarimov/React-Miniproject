@@ -1,0 +1,46 @@
+.map-sec{
+    position: relative;
+}
+.map{
+    max-width: 100%;
+    background: #006cca;
+    background: -webkit-linear-gradient(to right, #006cca, #a047e4);
+    background: linear-gradient(to right, #006cca, #a047e4);
+}
+.maptexts{
+    position: absolute;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 360px;
+    gap: 20px;
+}
+.ucun{
+    font-size: 60px;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+}
+.yarat1{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+}
+.qeyd{
+    width: 217px;
+    height: 75px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-weight: 500;
+}
+.qeyd:hover{
+    background-color: #006cca;
+    border: 1px solid #006cca;
+    transition: 0.5s;
+    color: white;
+}
