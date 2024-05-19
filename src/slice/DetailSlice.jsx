@@ -5,16 +5,15 @@ import {
 } from "@reduxjs/toolkit"
 import axios from "axios";
 
-const apiUrl='http://localhost:4040/blog'
+const apiUrl='http://localhost:4040/blogcards'
 
-export const fetchBlog = createAsyncThunk('blog/fetchBlog', async () => {
+export const fetchDetail = createAsyncThunk('detailcards/fetchDetail', async () => {
     const response = await axios.get(apiUrl)
-    console.log(response.data);
     return response.data
 })
 
-export const BlogCardSlice = createSlice({
-    name: 'blog',
+export const DetailSlice = createSlice({
+    name: 'detailcards',
     initialState: {
         items: [],
         status: "nothing"
@@ -22,18 +21,18 @@ export const BlogCardSlice = createSlice({
     reducer: {},
     extraReducers: (builder) => {
         builder
-            .addCase(fetchBlog.pending, (state, action) => {
+            .addCase(fetchDetail.pending, (state, action) => {
                 state.status = 'loading'
             })
-            .addCase(fetchBlog.fulfilled, (state, action) => {
+            .addCase(fetchDetail.fulfilled, (state, action) => {
                 state.status = 'succeed'
                 state.items = action.payload
             })
-            .addCase(fetchBlog.rejected, (state, action) => {
+            .addCase(fetchDetail.rejected, (state, action) => {
                 state.status = 'failed'
             })
             
 
     }
 })
-export default BlogCardSlice.reducer
+export default DetailSlice.reducer

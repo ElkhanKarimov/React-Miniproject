@@ -9,7 +9,8 @@ import Blog from './pages/Blog';
 import Faq from './pages/Faq';
 import { Provider } from 'react-redux';
 import { Store } from './Store';
-
+import Detail from './pages/Detail';
+// import db from "../src/db.json"
 
 const router=createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router=createBrowserRouter([
       {
         path: "/faq",
         element: <Faq/>,
+      },
+      {
+        path: "/detail/:id",
+        element: <Detail/>
       }
     ]
   }

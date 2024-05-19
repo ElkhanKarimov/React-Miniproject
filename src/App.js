@@ -18,7 +18,6 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Home/> */}
       <Outlet/>
       <Footer/>
     </div>

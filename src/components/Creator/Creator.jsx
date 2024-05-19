@@ -13,49 +13,49 @@ import { Link } from 'react-router-dom'
 const Creators = () => {
   return (
     <div className='container-box'>
-      <Link className='creatorLink'>
+      <Link to="/creators" className='creatorLink'>
           <div className='box33'>
             <img className='creator-img' src={Veb} alt="" />
           </div>
           <p className='ptext1'>Veb dizayn</p>
       </Link>
-      <Link className='creatorLink'>
+      <Link to="/creators" className='creatorLink'>
         <div className='box33'>
           <img className='creator-img' src={Qrafik} alt="" />
         </div>
           <p className='ptext2'>Qrafik dizayn</p>
       </Link>
-      <Link className='creatorLink'>
+      <Link to="/creators"  className='creatorLink'>
         <div className='box33'>
           <img className='creator-img' src={Inkisaf} alt="" />
         </div>
           <p className='ptext3'>Şəxsi inkişaf</p>
       </Link>
-      <Link className='creatorLink'>
+      <Link to="/creators" className='creatorLink'>
         <div className='box33'>
           <img className='creator-img' src={Yazi} alt="" />
         </div>
           <p className='ptext4'>Yazıçılıq</p>
       </Link>
-      <Link className='creatorLink'>
+      <Link to="/creators" className='creatorLink'>
         <div className='box33'>
           <img className='creator-img' src={Ince} alt="" />
         </div>
           <p className='ptext5'>İncəsənət</p>
       </Link>
-      <Link className='creatorLink'>
+      <Link to="/creators" className='creatorLink'>
         <div className='box33'>
           <img className='creator-img' src={Blog} alt="" />
         </div>
           <p className='ptext6'>Blog</p>
       </Link>
-      <Link className='creatorLink'>
+      <Link to="/creators" className='creatorLink'>
         <div className='box33'>
           <img className='creator-img' src={Idman} alt="" />
         </div>
           <p className='ptext7'>İdman</p>
       </Link>
-      <Link className='creatorLink'>
+      <Link to="/creators" className='creatorLink'>
         <div className='box33'>
           <img className='creator-img' src={Musiqi} alt="" />
         </div>

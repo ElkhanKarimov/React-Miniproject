@@ -11,7 +11,9 @@ const Section = () => {
                     izləyicilərindən dəstək qazan!</div>
                 <div className='input-button'><input className='input' placeholder='kofe.al/username' type="text" /><button className='yarat'>Yarat</button></div>
                 <div className='yarat1'>
-                Yarat 🎉 Paylaş 🚀 Qazan ☕
+                    <div className='yarat2'>Yarat 🎉</div>
+                    <div className='yarat2'>Paylaş 🚀</div>
+                    <div className='yarat2'>Qazan ☕</div>
                 </div>
             </div>
         </div>
